@@ -2,6 +2,7 @@
 .allData {
     border: 2px solid;
     margin: 2em;
+    
 }
 /* display avatar, name and handler */
 div .toptweet {
@@ -47,6 +48,9 @@ div .headertweet {
 }
 /* display change icon color */
 i:hover {
-    color:peachpuff ;
-
-  }
+    color:rgb(193, 159, 74);
+}
+ .allData:hover{
+    box-shadow: 5px 10px #888888;
+    }
+  

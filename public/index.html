@@ -38,7 +38,7 @@
   <!-- Top nav bar (fixed) -->
   <header class="positioned">
     <nav class="nav-tweet">
-      <span>Tweeter</span>
+      <span class="tweet-title"><b>TWEETER</b></span>
       <div class="tweetarrow">Write a new tweet
         <i style="position: relative; top: 30px; right: 60px;" class="fas fa-angle-double-down" ></i>
       </div>
@@ -59,8 +59,8 @@
         <h2>Compose Tweet</h2>
         <form action="/" id="target">
           <div class="error"></div>
-          <label for="tweet-text">What are you humming about?</label>
-          <textarea name="text" id="tweet-text"></textarea>
+          <!-- <label for="tweet-text"></label> -->
+          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
           <hr>
           <div class="manage">
             <button type="manage submit" class="simple">TWEET</button>
